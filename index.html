@@ -53,7 +53,9 @@ textarea{resize:none;min-height:64px}
 .door .leaf:after{content:"";position:absolute;right:8px;top:50%;width:5px;height:5px;border-radius:50%;background:var(--gold)}
 .door.open .leaf{transform:rotateY(-105deg)}
 .door.today .leaf{box-shadow:inset 0 0 0 2px var(--gold),0 0 18px rgba(232,194,122,.55);animation:pulse 2s infinite}
-.door.d24{grid-column:span 2;aspect-ratio:auto}
+.door.d24 .leaf{background:linear-gradient(160deg,#e8c27a,#b8873e);box-shadow:inset 0 0 0 2px rgba(255,255,255,.5),0 0 22px rgba(232,194,122,.6)}
+.door.d24 .leaf span{color:#3a1d06;font-size:20px}
+.door.d24 .leaf:after{background:#3a1d06}
 .door.locked .leaf span{opacity:.75}
 @keyframes pulse{50%{box-shadow:inset 0 0 0 2px var(--gold),0 0 28px rgba(232,194,122,.85)}}
 .shake{animation:shake .45s}
